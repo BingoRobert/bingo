@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Next.js Blog Theme';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : '[Guest Post]https://bingotheme.com/guest-post).';
+    : '[Guest Post](https://bingotheme.com/guest-post).';
 
   return {
     name,
